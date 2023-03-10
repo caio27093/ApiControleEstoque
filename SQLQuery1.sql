@@ -1,0 +1,13 @@
+CREATE DATABASE ESTOQUE
+GO
+CREATE TABLE Estoque(
+	Id int Identity Primary key,
+	Nome Varchar(200),
+	Quantidade int
+)
+
+SELECT * FROM ESTOQUE
+
+INSERT INTO ESTOQUE VALUES ('A.A.2', 10)
+
+INSERT INTO ESTOQUE VALUES ('A.A.1', 10)
